@@ -11,7 +11,7 @@ const PORT = process.env.PORT || 3000;
 const TOKEN_SECRETO = "jdhdj265wWQr4349GKHYfge874389V";
 
 // URL DIRETA DO SEU ARQUIVO .M3U (Pode ser link direto do Google Drive, Mega, etc.)
-const URL_DO_ARQUIVO = process.env.URL_ARQUIVO_M3U || "https://files.catbox.moe/jqfinw.m3u";
+const URL_DO_ARQUIVO = process.env.URL_ARQUIVO_M3U || "https://drive.google.com/file/d/1T0KJH2Wg2ZYbJtcQSw6Mc168O4csy3Ea/view?usp=drive_link";
 const filePath = path.join(__dirname, 'lista.m3u');
 
 // Função para baixar o arquivo caso ele não esteja na pasta
