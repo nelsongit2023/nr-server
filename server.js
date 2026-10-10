@@ -8,7 +8,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 // SEU TOKEN SECRETO PARA OS 6 APPS
-const TOKEN_SECRETO = "jdhdj2654349GKHYFIEYNB4389V@@##$%bÇdfh%$kf";
+const TOKEN_SECRETO = "jdhdj265wWQr4349GKHYfge874389V";
 
 // URL DIRETA DO SEU ARQUIVO .M3U (Pode ser link direto do Google Drive, Mega, etc.)
 const URL_DO_ARQUIVO = process.env.URL_ARQUIVO_M3U || "https://drive.usercontent.google.com/download?id=1T0KJH2Wg2ZYbJtcQSw6Mc168O4csy3Ea&export=download";
