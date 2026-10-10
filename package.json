@@ -1,0 +1,12 @@
+{
+  "name": "servidor-iptv",
+  "version": "1.0.0",
+  "description": "Servidor m3u protegido por token",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
